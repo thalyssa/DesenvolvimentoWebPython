@@ -42,9 +42,10 @@ Arquivo no qual iremos configurar os endereços de acesso e páginas do nosso pr
 
 - No arquivo `settings.py`, vamos definir a nossa linguagem como português brasileiro e o fuso-horário do Brasil substituindo os parâmetros a seguir:
 
-`LANGUAGE_CODE = 'pt-BR`
-
-`TIME_ZONE = 'America/Sao_Paulo`
+```python
+LANGUAGE_CODE = 'pt-BR`
+TIME_ZONE = 'America/Sao_Paulo
+```
 
 - Lembrem de salvar as modificações!
 
