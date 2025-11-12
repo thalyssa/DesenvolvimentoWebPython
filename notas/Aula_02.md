@@ -182,3 +182,4 @@ urlpatterns = [
 
 - [Estrutura básica de um projeto em Django (Mais curto)](https://youtu.be/4u0aI-90KnU?si=YFbI7mKsbQ05mA3b)
 - [Estrutura de um projeto em Django (Mais longo)](https://youtu.be/XAzVlnPDVd0?si=kjCt5W2owz8VtHXY)
+- [Tutorial Django Girls](https://tutorial.djangogirls.org/pt/)
