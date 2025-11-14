@@ -4,7 +4,7 @@
 
 - Na pasta do nosso curso, vamos dar início ao projeto propriamente dito. A primeira coisa que precisamos é iniciar o Django Framework, que criará o esqueleto para a nossa aplicação
 
-- Nosso comando será: `django-admin.exe startproject controlefinanceiro .`
+- Nosso comando será: `django-admin startproject controlefinanceiro .`
 
 - Você irá notar que algumas pastas foram criadas. Nós iremos observá-las depois.
 
