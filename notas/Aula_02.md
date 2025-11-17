@@ -104,8 +104,13 @@ def sobre(request):
 - No arquivo `urls.py` da pasta `controlefinanceiro` escreva:
 
 ```python
+
+# Importações de bibliotecas úteis
+
 from django.contrib import admin
 from django.urls import path, include
+
+# Adicionamos as urls do aplicativo "base" ao arquivo geral
 
 urlpatterns = [
     path('admin/', admin.site.urls),

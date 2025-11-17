@@ -40,10 +40,15 @@ from django.db import models
 from django.contrib.auth.models import User
 
 class Transacao(models.Model):
+
+    # Aqui estamos fazendo uma lista com os tipos possíveis de uma transação
+
     TIPO_CHOICES = [
         ('R', 'Receita'),
         ('D', 'Despesa'),
     ]
+
+    # Aqui temos as nossas variáveis, características que definem nossa transação e também os campos da nossa tabela.
 
     descricao = models.CharField(max_length=100)
     tipo = models.CharField(max_length=1, choices=TIPO_CHOICES)
@@ -52,6 +57,8 @@ class Transacao(models.Model):
     categoria = models.CharField(max_length=50)
     usuario = models.ForeignKey(User, on_delete=models.CASCADE)
 
+    #Aqui reescrevemos a função __str__ para retornar o conteúdo da transação como uma string
+    
     def __str__(self):
         return f"{self.descricao} - {self.get_tipo_display()} ({self.valor})"
 ```
